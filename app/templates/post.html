@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+
+{% block title %}简博 - 文章{% endblock %}
+
+{% block page_content %}
+<div class="row">
+    <div class='col-md-9 col-sm-9'>
+        {% include '_post.html' %}
+        <h4 id="comments">评论</h4>
+        {% if current_user.can(Permission.COMMENT) %}
+        <div class="comment-form">
+            {{ wtf.quick_form(form) }}
+        </div>
+        {% endif %}
+        {% include '_comments.html' %}
+        {% if pagination %}
+        <div class="pagination">
+            {{ macros.pagination_widget(pagination, '.post', fragment='#comments', id=post.id) }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

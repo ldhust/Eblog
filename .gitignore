@@ -1,0 +1,11 @@
+# python compile files
+*.pyc
+
+# ignore virtual environment
+venv/
+
+# ignore tmp
+tmp/
+
+# ignore supervisor configure file
+supervisor.conf

@@ -1,0 +1,296 @@
+#title{
+    height: 48px;
+    font-size: 20px;
+    color: #333;
+    border-radius: 6px;
+}
+#comments {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
+}
+ul.posts {
+    list-style-type: none;
+    padding: 0px;
+}
+div.post-tabs ul.posts {
+    margin: 0px;
+    border-top: none;
+}
+ul.posts li.post {
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    position: relative;
+    box-shadow: rgb(167, 163, 163) 4px 4px 16px;
+}
+ul.posts li.post:hover {
+    box-shadow: rgb(108, 105, 105) 4px 4px 16px;
+}
+div.post-author {
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+}
+div.post-time {
+    float: left;
+    margin-right: 6px;
+}
+div.post-category {
+    float: left;
+    margin-right: 6px;
+}
+div.post-like {
+    float: left;
+    margin-right: 6px;
+}
+div.post-statistics {
+    font-style: italic;
+    float: left;
+    margin-right: 6px;
+}
+div.post-edit {
+    float: left;
+    margin-right: 6px;
+}
+div.post-delete {
+    float: left;
+    margin-right: 6px;
+}
+div.post-thumbnail {
+    position: absolute;
+    right: 68px;
+}
+div.post-content {
+    min-height: 68px;
+}
+div.post-footer {
+    text-align: left;
+}
+ul.comments {
+    list-style-type: none;
+    padding: 0px;
+    margin: 16px 0px 0px 0px;
+}
+ul.comments li.comment {
+    margin-left: 32px;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+ul.comments li.comment:nth-child(1) {
+    border-top: 1px solid #e0e0e0;
+}
+ul.comments li.comment:hover {
+    background-color: #f0f0f0;
+}
+div.comment-date {
+    float: right;
+}
+div.comment-author {
+    font-weight: bold;
+}
+div.comment-thumbnail {
+    position: absolute;
+}
+div.comment-content {
+    margin-left: 48px;
+    min-height: 48px;
+}
+div.comment-form {
+    margin: 16px 0px 16px 32px;
+}
+div.pagination {
+    width: 100%;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+div.flask-pagedown-preview {
+    width: 100%;
+    height: 384px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 16px;
+    overflow: auto;
+}
+div.flask-pagedown-preview h1 {
+    font-size: 140%;
+}
+div.flask-pagedown-preview h2 {
+    font-size: 130%;
+}
+div.flask-pagedown-preview h3 {
+    font-size: 120%;
+}
+a {
+    color: #663366;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #993399;
+    text-decoration: none;
+}
+p {
+    word-wrap: break-word;
+    word-break: normal;
+}
+textarea:focus {
+    border-color: #663366;
+}
+textarea::-webkit-input-placeholder { 
+    color:    #989898;
+}
+textarea:-moz-placeholder { 
+    color:    #989898;
+}
+textarea::-moz-placeholder { 
+    color:    #989898;
+}
+textarea:-ms-input-placeholder { 
+    color:    #989898;
+}
+.index-header {
+    margin-bottom: 24px;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #663366;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+    color: #993399;
+}
+.post-title {
+    font-size: 24px;
+    margin: 10px 0px;
+    clear: both;
+}
+.post-body {
+    margin-top: 38px;
+    font-size: 16px;
+    clear: both;
+}
+.post-body h1 {
+    font-size: 140%;
+}
+.post-body h2 {
+    font-size: 130%;
+}
+.post-body h3 {
+    font-size: 120%;
+}
+.post-body>p>img {
+    width: 100%;
+}
+.flask-pagedown-preview>p>img {
+    width: 100%;
+}
+.table.followers tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+.col-xs-nav {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #FFF;
+    background-color: #663366;
+}
+.navbar-inverse {
+    background-color: #663366;
+    border-color: #663366;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #993399;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #993399;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+}
+.profile-thumbnail {
+    position: absolute;
+}
+.profile-header {
+    min-height: 260px;
+    margin-left: 280px;
+}
+.post-title-default {
+    color: #555;
+}
+.post-title-default:focus, .post-title-default:hover{
+    color: #000;
+}
+.label-primary {
+    background-color: #663366;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #663366;
+    border-color: #663366;
+}
+.form-control:focus {
+    border-color: #663366;
+}
+.btn-default {
+    color: #fff;
+    background-color: #663366;
+    border-color: #663366;
+}
+.btn-default:focus, .btn-default:hover {
+    color: #fff;
+    background-color: #993399;
+    border-color: #993399;
+}
+.btn-link {
+    color: #996699;
+}
+.btn-link:focus, .btn-link:hover {
+    color: #663366;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.input-markdown {
+    width: 100%;
+    height: 384px;
+    margin: 10px 0px 10px 0px;
+    padding: 8px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+.modal-header {
+    background-color: #663366;
+}
+.modal-title {
+    color: #fff;
+}
+.bootstrap-dialog, .modal-header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.post-picture {
+    width: 60px;
+}
