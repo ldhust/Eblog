@@ -14,31 +14,31 @@
 ## 基础功能展示
 1. 网站主页
 
-![index](/blob/master/img/index.png "网站主页")  
+![index](./blob/master/img/index.png "网站主页")  
 2. 注册界面
 
-![register](/blob/master/img/register.png "注册界面")  
+![register](./blob/master/img/register.png "注册界面")  
 3. 登录界面
 
-![login](/blob/master/img/login.png "登录界面")  
+![login](./blob/master/img/login.png "登录界面")  
 4. 密码重置
 
-![resetpassword](/blob/master/img/resetpassword.png "密码重置")  
+![resetpassword](./blob/master/img/resetpassword.png "密码重置")  
 5. 用户主页
 
-![userindex](/blob/master/img/userindex.png "用户主页")  
+![userindex](./blob/master/img/userindex.png "用户主页")  
 6. 用户菜单
 
-![usermenu](/blob/master/img/usermenu.png "用户菜单")  
+![usermenu](./blob/master/img/usermenu.png "用户菜单")  
 7. 文章编辑
 
-![article](/blob/master/img/article.png "文章编辑")  
+![article](./blob/master/img/article.png "文章编辑")  
 8. 评论点赞
 
-![comment](/blob/master/img/comment.png "评论点赞")  
+![comment](./blob/master/img/comment.png "评论点赞")  
 9. 用户资料
 
-![profile](/blob/master/img/profile.png "用户资料")  
+![profile](./blob/master/img/profile.png "用户资料")  
 10. 关注信息
 
-![followed](/blob/master/img/followed.png "关注信息")
+![followed](./blob/master/img/followed.png "关注信息")
