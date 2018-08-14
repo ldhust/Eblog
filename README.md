@@ -9,8 +9,7 @@
 
 ## 部署  
 《Flask Web开发》一书原项目是部署在Heroku平台上的，这里没有照做，只部署在了本地。具体思路参考文章  
-[https://realpython.com/kickstarting-flask-on-ubuntu-setup-and-deployment/](https://realpython.com/kickstarting-flask-on-ubuntu-setup-and-deployment/ "ubuntu部署")，采用了  
-Nginx+Gunicorn+Supervisor+MySQL的结构来搭建的服务器，结构如下图：  
+[https://realpython.com/kickstarting-flask-on-ubuntu-setup-and-deployment/](https://realpython.com/kickstarting-flask-on-ubuntu-setup-and-deployment/ "ubuntu部署")，采用了Nginx+Gunicorn+Supervisor+MySQL的结构来搭建的服务器，结构如下图：  
 ![部署结构](https://files.realpython.com/media/flask-nginx-gunicorn-architecture.012eb1c10f5e.jpg "部署示意图")  
 
 ## 基础功能展示
